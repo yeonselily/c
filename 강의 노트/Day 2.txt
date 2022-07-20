@@ -1,0 +1,26 @@
+Standard Input/Output library (표준입출력 라이브러리)
+header file : #include <stdio.h>
+안에 사용할 수 없는 함수가 많다. 
+입출력 함수 같은 ! 
+scanf("%d", &n);
+&은 n의 주소 전달  
+printf("%d"); 
+
+if- 조건문 or BRANCHING
+telephone operator 
+switch 구문 = 맞는 case를 찾아 꼳아줌 !  
+break 써야 자신의 원하는 case만 printf됨 
+break없으면 밑빠진 독처럼 다 printf 함. 
+맨 끝에는 굳이 break 필요없음 ! 
+
+branching 가지 여러가지 - switch 구문 
+
+
+
+소수 (prime number): 
+1보다 큰 자연수 중 1과 자기 자신만을 약수로 가지는 수다.
+
+약수( a common divisor): 
+어떤 수나 식을 나누어 나머지가 없이 떨어지는 수나 식을 일컫는 말.
+
+

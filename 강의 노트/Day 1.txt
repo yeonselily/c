@@ -1,0 +1,119 @@
+<C language> 
+low level / compiled 
+strictly typed 
+procedural 
+
+system, firmware 
+back-end 
+front-end 
+
+.java - Byte code - VM  virtural machine hardware 신경쓸필요 없음 
+.py - interpreter(programing) 느림. 더신경 쓸 필요 없음. 
+.c - machine code cpu마다 조금씩 코드가 다름 ! 세세해서 
+
+OS/HW
+
+<Tool chain>  
+Source Code 
+IDE (통합 개발 환경) ideal development environment ex) visual studio, Dev C++(open source program), GCC  
+:preprocessor (전철기, 미리 작성 된 코드) - compiler(확장된 것을 컴파일) - linker(기계어 module 다른 사람만든거 합침) 
+excutable    
+
+preprocessor 
+# 전처리기 - 다름사람적은거 덮침 붙이기 
+include standard input& output 
+	std        io 
+	stdio.h 
+
+printf(); 함수이름이구나 문자열이구나를 알수 있음 
+
+exe-함수들의 집합 순서 없고 함수 함수 함수 
+사과처럼 들어있는거 
+순서 ? 
+운영체제 약속 
+main부터 시작 !  
+main은 고정 ! 
+
+
+함수 매개변수 
+int argc,
+ char *argv[]
+
+
+1. int main(int argc, char *argv[]){}   - 반환값으로 정수형태 int  
+2. void main(){}
+
+
+하는일은 {} 안에 있음 
+printf(): standard input output 의 한 종류 
+
+
+줄바꿈 / tab 의미 없음 ! 
+다만 사람 보기 편하라고 편집 함 !  - 여러가지 스타일 
+
+open source 함수내려씀 - 문서 작성 동작 편함 !  
+
+
+주석 comment 
+1. // single line comment 
+2. /* multi-line comment */ : 주로 라인센스 기록 
+
+
+Strictly typed 
+자료형 (어떤 데이터 타입 정하기) 
+
+int        정수, 음 / 양 / 0     -4, -3, -2, 0 ,1, 2, 3 ....   4byte 
+long 	정수(큰 숫자)  			
+float      실수, 음/양  10.1, 15.3
+double   실수(큰 숫자) 
+char 	문자( 알파벳 하나)  c, d  
+
+
+
+
+<산술연산자 > 
++ 합  
+- 차 
+* 곱 
+/ 나눈 값 
+% 나머지값  
+
+
+printf("%d\n", x); 
+문자열 format string "%d\n" 
+%  변수값 출력  
+d(decimal) 십진수
+\n 줄바꿈  
+
+
+%f 
+float 
+
+데이터 타입에 따라 플러그가 다름 f. d, s ... 
+	
+
+
+비교연산자 
+두 값을 비교 하는데 사용되는 연산자
+
+== != >= <=  
+	
+
+Data Type 
+bool 
+boolean 
+True / False 
+We have no boolean in C langauge !!  
+
+0 False 거짓 
+1 True 참 
+
+
+
+And Truth Table 
+OR
+XOR
+NOT 
+
+
+
