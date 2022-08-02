@@ -3,7 +3,7 @@
 // struct alignment, Á¤·Ä.  
 
 struct struct_one{
-	int x, y;  // 4+ 4 = 8 
+	int x, y;  // 4 + 4 = 8 
 	char a, b; // 1 + 1 = 2
 	
 };
@@ -16,18 +16,18 @@ struct struct_two{
 };
 
 // union  
-typedef union union_one{
-	int x, y; 
+typedef union union_one{	// 4 byte 
+	int x, y, z; 
 	
 }UNION_ONE;
 
 
-struct color_rgb{
+struct color_rgb{	// 4 byte 
 	char alpha, b, g, r; 
 };
 
 
-union color{
+union color{	// 4 byte 
 	int code; 
 	struct color_rgb comp; 
 };

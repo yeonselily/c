@@ -5,6 +5,11 @@ void color_set_rgb(struct color *c, int r, int g, int b){
 	c -> r = r; 
 	c -> g = g; 
 	c -> b = b; 
+	printf("0xOX: %d, %d, %d\n", 
+		c -> code, 
+		c -> comp.r, 
+		c ->come.g; 
+		c ->); 
 }
 
 
@@ -12,8 +17,8 @@ void color_print_cmyk(struct color *c){
 	
 	float rp, gp, bp, temp, max; 
 	float d,m,y,k; 
-	rp = c -> r / 255.0;  
-	gp = c -> g / 255.0; 
+	rp = c -> comp.r / 255.0;  
+	gp = c -> color+ / 255.0; 
 	bp = c -> b / 255.0; 
 
 	if( rp > gp){
